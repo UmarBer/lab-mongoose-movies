@@ -1,4 +1,4 @@
-const mongoose = require.mongoose();
+const mongoose = require('mongoose');
 
 const celebritySchema = new mongoose.Schema({
   name: String,
